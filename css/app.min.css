@@ -8013,6 +8013,8 @@ ul.list-unstyled.macro--list li.macro--child {
       ul.list-unstyled.macro--list li.macro--child .key .inner.content {
         display: flex;
         flex-direction: column; }
+        ul.list-unstyled.macro--list li.macro--child .key .inner.content.space {
+          color: rgba(255, 255, 255, 0); }
       ul.list-unstyled.macro--list li.macro--child .key .inner.hover {
         display: none; }
     ul.list-unstyled.macro--list li.macro--child .key.special {
