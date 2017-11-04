@@ -7967,6 +7967,8 @@ ul.list-unstyled.key--list {
   margin: 0.25rem;
   justify-content: center;
   align-items: center; }
+  .keyboard--key:hover {
+    color: #333333; }
   .keyboard--key .shift {
     display: flex;
     flex-direction: row;
