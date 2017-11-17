@@ -8038,13 +8038,16 @@ ul.list-unstyled.macro--list li.macro--child {
         color: #80bdff; }
         ul.list-unstyled.macro--list li.macro--child .position span.position--select.position_1:hover {
           color: #007bff; }
-  ul.list-unstyled.macro--list li.macro--child.hovered .key {
+  ul.list-unstyled.macro--list li.macro--child.hovered .key .inner.content {
+    display: none; }
+  ul.list-unstyled.macro--list li.macro--child.hovered .key .inner.hover {
+    display: flex;
     color: #efa2a9; }
-    ul.list-unstyled.macro--list li.macro--child.hovered .key .inner.content {
-      display: none; }
-    ul.list-unstyled.macro--list li.macro--child.hovered .key .inner.hover {
-      display: flex; }
-  ul.list-unstyled.macro--list li.macro--child.drag-start {
+  ul.list-unstyled.macro--list li.macro--child.drag-start .key .inner.content {
+    display: flex; }
+  ul.list-unstyled.macro--list li.macro--child.drag-start .key .inner.hover {
+    display: none; }
+  ul.list-unstyled.macro--list li.macro--child.drag-start .position {
     opacity: 0; }
   ul.list-unstyled.macro--list li.macro--child.ghost .key {
     border-width: .3rem;
