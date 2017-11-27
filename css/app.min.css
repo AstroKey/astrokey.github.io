@@ -7938,7 +7938,10 @@ ol.breadcrumb {
 
 ul.list-unstyled.key--list {
   border: 1px solid #f8f9fa;
-  border-radius: 1.5rem; }
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 1.5rem; }
   ul.list-unstyled.key--list li.key--child {
     height: 4rem;
     width: 4rem;
