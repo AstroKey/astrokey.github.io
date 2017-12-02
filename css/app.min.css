@@ -8039,18 +8039,18 @@ ul.list-unstyled.macro--list li.macro--child {
     ul.list-unstyled.macro--list li.macro--child .position span.position--select {
       color: #adb5bd;
       cursor: pointer; }
-      ul.list-unstyled.macro--list li.macro--child .position span.position--select.position_-1 {
-        color: #ffe187; }
-        ul.list-unstyled.macro--list li.macro--child .position span.position--select.position_-1:hover {
-          color: #ffc107; }
-      ul.list-unstyled.macro--list li.macro--child .position span.position--select.position_0 {
-        color: #71dd8a; }
-        ul.list-unstyled.macro--list li.macro--child .position span.position--select.position_0:hover {
-          color: #28a745; }
       ul.list-unstyled.macro--list li.macro--child .position span.position--select.position_1 {
-        color: #80bdff; }
+        color: #ffe187; }
         ul.list-unstyled.macro--list li.macro--child .position span.position--select.position_1:hover {
+          color: #ffc107; }
+      ul.list-unstyled.macro--list li.macro--child .position span.position--select.position_2 {
+        color: #80bdff; }
+        ul.list-unstyled.macro--list li.macro--child .position span.position--select.position_2:hover {
           color: #007bff; }
+      ul.list-unstyled.macro--list li.macro--child .position span.position--select.position_3 {
+        color: #71dd8a; }
+        ul.list-unstyled.macro--list li.macro--child .position span.position--select.position_3:hover {
+          color: #28a745; }
   ul.list-unstyled.macro--list li.macro--child.hovered .key .inner.content {
     display: none; }
   ul.list-unstyled.macro--list li.macro--child.hovered .key .inner.hover {
